@@ -1,8 +1,7 @@
-﻿#Company: Tata Communication Ltd
-#Author Soundarraj.Ramasamy@tatacommunications.com
+﻿#Author Soundarraj.Ramasamy
 #Version 1.0
 #Date: 01-07-2021
-#Approver: Muthukumar K
+
 
 
 
@@ -16,31 +15,31 @@ Param (
                 Mandatory=$false,
                 HelpMessage='SMTP Server Address (Like IP address, hostname or FQDN)')]
             
-                [string]$MailServer = "10.72.217.36",
+                [string]$MailServer = "SMTP IP",
 
     [parameter(
                 Mandatory=$false,
                 HelpMessage='Recipient e-mail address')]
                
-                [array]$MailTo = "soundarraj.ramasamy@tatacommunications.com",
+                [array]$MailTo = "XYZ@XYZ.COM",
 
   [parameter(
                 Mandatory=$false,
                 HelpMessage='Recipient e-mail address')]
                
-                [array]$MailCc = "soundarraj.ramasamy@tatacommunications.com",
+                [array]$MailCc = "XYZ@XYZ.COM",
 
     [parameter(
                 Mandatory=$false,
                 HelpMessage='Recipient e-mail address')]
                
-                [array]$MailBcc = "soundarraj.ramasamy@tatacommunications.com",
+                [array]$MailBcc = "XYZ@XYZ.COM",
 
     [parameter(
                 Mandatory=$false,
                 HelpMessage='Sender e-mail address')]
                
-                [string]$MailFrom = "Zerto-AG-Replication-Report@tatacommunications.com"  
+                [string]$MailFrom = "Zerto-Daily-Replication-Report@localhost.com"  
 )
 #endregion SMTP Configuration
 
@@ -48,11 +47,11 @@ Param (
 # Configure the variables below
 ################################################
 $LogDataDir = "C:\LogFolder\"
-$ZertoServer = "198.18.20.140"
+$ZertoServer = "Zerto IP"
 $ZertoPort = "9669"
-$ZertoUser = "zertoadmin@tclosbc.com"
-$ZertoPassword = "Z3rt0@vmadm!n"
-$ZORG = "AG-TCX-SG03"
+$ZertoUser = "Zerto User Name"
+$ZertoPassword = "Zerto Password"
+$ZORG = "Z-ORG"
 
 
 
