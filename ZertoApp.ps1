@@ -263,7 +263,7 @@ table#Virtualization-Host-Table tr:nth-child(odd){
 <br><br>
 
 
-<center><b><p style=""font-size:30px;color:#4989c7"">TATA Communications Ltd</p></b></center>
+<center><b><p style=""font-size:30px;color:#4989c7"">Customer Name:</p></b></center>
 <center><p style=""font-size:18px;color:#4989c7"">Zerto Replication Daily Report</p></center>
 <center><p style=""font-size:12px;color:#4989c7"">Generated on $($Date) at $($Time) $($TimeZone.Id)</p></center>
 
@@ -383,7 +383,7 @@ table#Virtualization-Host-Table tr:nth-child(odd){
 $outHtmlEnd ="
 </div><!--End ReportBody--><br>
 <p style=""font-size:8px;color:#4989c7""> * This (Point in Time) report only to check the status of VM replication</p><br>
-<center><p style=""font-size:12px;color:#4989c7""> Version: 1.1 | Tata Communications Ltd | 2021 </p></center>
+<center><p style=""font-size:12px;color:#4989c7""> Version: 1.1 | Soundarraj Ramasamy | 2021 </p></center>
 <br>
 </body>
 </html>"
